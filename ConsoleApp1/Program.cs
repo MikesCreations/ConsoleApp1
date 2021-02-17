@@ -10,20 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string firstName = ("Michael");
-            string favMovie = ("Jack and Jill");
+            string firstName = ("Mich@3l");
+            string favMovie = ("J@ck @nd Jill");
+    
+            string e = ("e");
 
-            string message = ($"Hello {firstName} I see you like {favMovie}, very interesting choice.");
+            e = e.Replace("e", "3");
+
+            string message = ($"H{e}llo {firstName} I see you like {favMovie}, very int{e}r{e}sting choic{e}.");
             Console.WriteLine(message.ToLower());
+            
             Console.WriteLine(favMovie.Contains ("The"));
 
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M   RRRR ");
+            Console.WriteLine("MM MM   R   R");
+            Console.WriteLine("MM MM   R   R");
+            Console.WriteLine("M M M   RRRR ");
+            Console.WriteLine("M   M   R R  ");
+            Console.WriteLine("M   M   R  R ");
+            Console.WriteLine("M   M   R   R");
 
 
 
