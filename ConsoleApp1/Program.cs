@@ -18,10 +18,12 @@ namespace ConsoleApp1
             Console.WriteLine(favMovie.Contains ("The"));
 
             Console.WriteLine("M   M    RRRR ");
-            Console.WriteLine
-
-
-
+            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M    RRRR ");
+            Console.WriteLine("M   M    RRRR ");
 
 
 
